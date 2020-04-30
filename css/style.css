@@ -244,6 +244,7 @@ h4 {
     #flex_recommandation {
         display: flex;
         flex-direction: column;
+        word-wrap: break-word;
     }
     h3,
     H4 {
