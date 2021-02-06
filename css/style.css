@@ -1,6 +1,7 @@
 html {
     line-height: 1.2;
     font-size: 62.50%;
+    height: 100%;
 }
 
 * {
@@ -14,7 +15,6 @@ body {
     color: #4f4f4f;
     margin: 0 auto;
     max-width: 1200px;
-    border: 1px solid black;
 }
 
 span {
@@ -34,6 +34,9 @@ h2 .fas {
 }
 
 
+/*color: #efa100;*/
+
+
 /*--------------------------------------------- 
 --------------- flex container-----------------
 -----------------------------------------------*/
@@ -44,16 +47,28 @@ h2 .fas {
 }
 
 .header_right {
-    border: 1px solid;
     text-align: center;
     padding: 4rem 0rem;
-    margin-top: 5rem;
+    background-color: #efa100;
+    margin-bottom: 7rem;
 }
 
 .flex_right_column {
     flex: 75%;
     padding: 10px 20px 10px 20px;
-    line-height: 15px;
+    margin-top: Arem;
+    /* background-color: #efa100; */
+}
+
+.flex_right_column_header {
+    flex: 70%;
+    padding: 10px 20px 10px 20px;
+    /* background-color: #efa100; */
+}
+
+.flex_left_column_header {
+    flex: 30%;
+    /* background-color: #efa100; */
 }
 
 .content {
@@ -62,7 +77,7 @@ h2 .fas {
 
 .flex_left_column {
     flex: 25%;
-    background-color: #f9cb47;
+    background-color: #efa100;
     padding: 10px 0px;
     position: relative;
 }
@@ -76,7 +91,8 @@ h2 .fas {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 18px;
+    padding-bottom: 4rem;
 }
 
 .img img {
@@ -116,7 +132,6 @@ h5 {
     margin-bottom: 0;
     padding-left: 1rem;
     font-size: 1.7rem;
-    color: #73113e;
 }
 
 span {
@@ -125,10 +140,10 @@ span {
 }
 
 h2 {
-    text-align: left;
-    border-bottom: 2px solid #f9cb47;
     padding: 0px 0px 7px 0px;
-    font-size: 1.9em;
+    border-bottom: 4px solid #efa100;
+    font-size: 20px;
+    text-align: end;
 }
 
 h3 {
@@ -154,15 +169,15 @@ h4 {
 
 .aside h3 {
     background-color: #404040;
-    color: #f9cb47;
+    color: #efa100;
     text-align: center;
-    padding: 5px 0px;
+    padding: 12px 0px;
     font-size: 1em;
     text-transform: uppercase;
 }
 
 .contact {
-    padding: 10px 40px;
+    padding: 10px 40px 97px 40px;
 }
 
 .apropos {
@@ -171,6 +186,7 @@ h4 {
 
 .formation {
     padding: 0px 40px;
+    margin-top: 3rem;
 }
 
 .container_formation {
