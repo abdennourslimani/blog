@@ -3,6 +3,11 @@ html {
     font-size: 62.50%;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Open Sans";
     font-size: 1.6rem;
@@ -38,17 +43,28 @@ h2 .fas {
     flex-direction: row-reverse;
 }
 
+.header_right {
+    border: 1px solid;
+    text-align: center;
+    padding: 4rem 0rem;
+    margin-top: 5rem;
+}
+
 .flex_right_column {
-    flex: 70%;
-    padding: 10px 50px;
+    flex: 75%;
+    padding: 10px 20px 10px 20px;
     line-height: 15px;
-    margin: 0px 15px 0px 0px;
+}
+
+.content {
+    padding-left: 2rem;
 }
 
 .flex_left_column {
-    flex: 30%;
+    flex: 25%;
     background-color: #f9cb47;
     padding: 10px 0px;
+    position: relative;
 }
 
 
@@ -75,17 +91,6 @@ h2 .fas {
 --------------- right header image--------------
 -----------------------------------------------*/
 
-.name {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 1.6em;
-}
-
-header h1 {
-    margin-bottom: 0;
-}
-
 span.dev {
     border-bottom: 2px solid #f9cb47;
     padding: 5px;
@@ -103,6 +108,22 @@ span.dev {
     align-items: baseline;
 }
 
+.competences p {
+    margin-left: 6rem;
+}
+
+h5 {
+    margin-bottom: 0;
+    padding-left: 1rem;
+    font-size: 1.7rem;
+    color: #73113e;
+}
+
+span {
+    color: #29261c;
+    margin-right: 0.5rem;
+}
+
 h2 {
     text-align: left;
     border-bottom: 2px solid #f9cb47;
@@ -112,35 +133,18 @@ h2 {
 
 h3 {
     font-weight: bold;
-    margin-bottom: 0px;
     text-transform: uppercase;
+    color: black;
 }
 
 h4 {
     margin-bottom: 0px;
     margin-top: 8px;
-    text-transform: uppercase;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 .article_right p {
     margin-top: 8px;
-}
-
-
-/*---------------------------------------------- 
---------------- recommandation flex -------------
------------------------------------------------*/
-
-#flex_recommandation {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-}
-
-.recommandation_right {
-    margin-right: 85px;
 }
 
 
@@ -153,7 +157,7 @@ h4 {
     color: #f9cb47;
     text-align: center;
     padding: 5px 0px;
-    font-size: 1.6em;
+    font-size: 1em;
     text-transform: uppercase;
 }
 
@@ -162,12 +166,33 @@ h4 {
 }
 
 .apropos {
-    margin-bottom: 160px;
     padding-bottom: 100px
 }
 
-.contact p {
-    text-align: justify;
+.formation {
+    padding: 0px 40px;
+}
+
+.container_formation {
+    margin-bottom: 5rem;
+}
+
+.container_loisirs {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.formation h5 {
+    font-size: 1.7rem;
+    color: #73113e;
+    text-align: end;
+    font-size: 1.6rem;
+}
+
+.formation p {
+    margin: 0;
+    text-align: end;
 }
 
 .loisirs {
